@@ -3,107 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Satyam da Dhabba</title>
+  <title>Login page</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
   <div class="container">
-    <header>
-          <div class="navContainer">
-    <nav>
-      <ul id="navlist">
-        <li>
-          <p id="navLogo">
-           Satyam da Dhabba
-          </p>
-        </li>
-        <li>
-          <div id="navItems">
-            <a href="#">Home</a>
-            <a href="#">Contact</a>
-            <a href="#">About</a>
-          </div>
-        </li>
-      </ul>
-    </nav>
-  </div>
-    </header>
-    <main>
-      <div class="contentBox">
-       <!-- Item1 -->
-        <section>
-          <div class="item">
-            <div class="leftBox">
-              <!-- heading -->
-               <h2>Gulab Jamun</h2>
-               <div>
-               <h3>Ingredients</h3>
-               <ul class="IngBox">
-                <li>Sugar</li>
-                <li>Bread</li>
-                <li>Oil</li>
-               </ul>
-               </div>
-               <div>
-               <h3>Recipe</h3>
-               <ol class="recipeBox">
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                <li>Lorem ipsum dolor sit.</li>
-                <li>Lorem ipsum dolor sit amet.</li>
-               </ol>
-               </div>
-            </div>
-            <div class="rightBox">
-               <img src="gulabjamun2Img.webp" alt="Sweet-img"/>
-               <div class="overlay">
-                <span>Click here to Buy</span>
-               </div>
+    <div class="loginPage">
+      <h1>Login</h1>
 
-            </div>
-          </div>
-        </section>
-         <section>
-          <div class="item">
-            <div class="leftBox">
-              <!-- heading -->
-               <h2>Barfi</h2>
-               <div>
-               <h3>Ingredients</h3>
-               <ul class="IngBox">
-                <li>Sugar</li>
-                <li>Bread</li>
-                <li>Oil</li>
-               </ul>
-               </div>
-               <div>
-               <h3>Recipe</h3>
-               <ol class="recipeBox">
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                <li>Lorem ipsum dolor sit.</li>
-                <li>Lorem ipsum dolor sit amet.</li>
-               </ol>
-               </div>
-            </div>
-            <div class="rightBox">
-               <img src="barfi2Img.webp" alt="Sweet-img">
-               <div class="overlay">
-                <span>Click here to Buy</span>
-               </div>
-            </div>
-          </div>
-        </section>
+      <div class="loginDetails">
+        <input type="text" placeholder="Enter your email">
+        <input type="password" placeholder="Type your password">
       </div>
-    </main>
-  <footer>
-    <div class="footerBox">
-    <p>
-      Copyright &copy; Satyam da Dhabba Pvt Ltd 2025 All Right Reserved
-    </p>
+      <div class="password">
+        <div>
+          <input type="checkbox" id="checkbox">
+        <label for="checkbox">Remember me</label>
+        </div>
+       
+
+        <p>Forgot password ?</p>
+      </div>
+      <button>Log In</button>
+    </div>
+
   </div>
-  </footer>
   
-  </div>
 </body>
 </html>

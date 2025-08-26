@@ -5,131 +5,76 @@
 }
 
 .container{
-  height: 100%;
-  width: 100%;
-  overflow-x: none;
-  background-color: #8EC5FC;
-  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-}
-
-.navContainer{
-  width: 100vw;
-  /* background-color: rgba(87, 87, 154, 0.607); */
-  /* background-color: #0093E9;
-  background-image: linear-gradient(160deg, #0093E9, #80D0c7 100%); */
-  background-color: #000000;
-  background-image: linear-gradient(160deg, #000000 0%, #8085d0 100%);
-  min-height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-}
-nav{
-  width: 100%;
-  /* padding: ; */
-}
-#navlist{
-  width: 100%;
-  /* margin-left: 15px;
-  margin-right: 15px; */
-  padding: 15px;
-  list-style: none;
-  font-size: 1.5rem;
-  display: flex;
-  justify-content: space-around;
-}
-#navLogo{
-  font-size: 2rem;
-  color: rgb(244, 246, 247);
-}
-a{
-  text-decoration: none;
-  color: azure;
-}
-#navItems{
- display: flex;
- gap: 20px;
- 
+  
+  background-image: url(bg3Img.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
 }
 
-.footerBox{
-  background-color: #000000;
-  background-image: linear-gradient(160deg, #000000 0%, #8085d0 100%);
-   
- 
-  width: 100%;
-  text-align: center;
-  min-height: 40px;
-}
-.footerBox p{
-   color: azure;
-    font-size: 1.5rem;
-}
-.contentBox {
-  width: 60%;
-  margin: auto;
-  /* border: 1px solid black; */
-  background-color: #d6b7d49f;
+.loginPage{
   display: flex;
   flex-direction: column;
-  gap: 100px;
-  padding: 2rem;
-  box-shadow: 0px 0px 30px black;
-}
-.item{
-  display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  gap: 20px;
+  width: 50%;
+  height: 70%;
+  background-color: rgba(161, 163, 163, 0.515);
+  border-radius: 25px;
+  backdrop-filter: blur(1px);
+
+
 }
-.rightBox {
-  position: relative;
-  overflow: hidden;
-  transition: all 0.3s linear 0s;
-  box-shadow: 1px 1px 10px black;
-  border-radius: 20px;
-}
-.rightBox img{
-  height: 400px;
-  width: 300px;
-  border-radius: 20px;
-  transition: all 0.4s linear 0s;
-}
-.rightBox:hover{
-  transform: scale(1.1);
-}
-.leftBox {
+
+/* .oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+.loginDetails{
+  width: 50%;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.leftBox h2{
-  font-size: 2rem;
-}
-.ingBox{
-  font-size: 1.3rem;
-}
-.recipeBox{
-  font-size: 1.1rem;
-}
-.rightBox .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(34, 33, 33, 0.709);
-  border-radius: 20px;
+
+.password{
+  font-size: 15px;
+  width: 50%;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: all 0.3s linear 0s; 
+  justify-content: space-between;
+
+
 }
-.rightBox:hover .overlay{
- opacity: 1;
+h1{
+  font-family: "Oswald", sans-serif;
+  font-size: 60px;
 }
-.rightBox .overlay span{
-  color: white;
-  font-size: 1.2rem;
+input[type="text"], input[type="password"]{
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+input[type="checkbox"]{
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+button{
+  cursor: pointer;
+  padding: 20px 40px ;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  background: linear-gradient(25deg, rgb(215, 215, 110), rgb(113, 113, 227));
+}
+p{
+  cursor: pointer;
+  text-decoration: underline;
 }
